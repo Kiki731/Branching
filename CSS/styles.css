@@ -1,10 +1,19 @@
-h1{color:orange;
+*{
+  margin: 0px;
+}
+body{ background-color: white;
+
+}
+h1{color:white;
   text-align: center;
   font-size: 50px;
   text-decoration: underline;
+  background-color: orange;
 }
 p{color: grey;
-text-align: center;}
+text-align: center;
+padding-top: 40px;
+}
 img{
   width: 450px;
   height: 250px;
@@ -14,7 +23,17 @@ h2{
   color: orange;
   text-decoration: underline;
   text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-style: italic;
 }
 .hover:hover{ color: red;
 
+}
+a{
+  padding: 20px;
+  margin-left: 100px;
+  color: orange;
+  
+  
 }
